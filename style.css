@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    background-color: #111;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.share_button {
+    display: flex;
+    align-self: flex-end;
+    color: #fff;
+}
+
+.share_icon {
+    font-size: 32px;
+    background-color: #222;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.img_profile {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.description {
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.button_links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    color: #111;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.button_links:hover {
+    background-color: #7700aa;
+    color: #fff;
+}
+
+.icons {
+    font-size: 20px;
+    margin-right: 0.5rem;
+}
